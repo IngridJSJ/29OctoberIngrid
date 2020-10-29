@@ -1,5 +1,5 @@
 def add(a, b):
-    return a - b
+    return a + b
 
 
 def test_add():
@@ -7,4 +7,5 @@ def test_add():
     assert add('space', 'ship') == 'spaceship'
 
 
-
+def subtract(a, b):
+    return a + b  # <--- fix this in step 8
